@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * 
+ * print_alphabet_x10 - Function send to "2-main.c"
+ *
+ * Description: Print 10 time the alphabet
+ * Return: Directly on the "2-main.c"
  */
 void print_alphabet_x10(void)
 {
@@ -15,5 +18,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	
 }
