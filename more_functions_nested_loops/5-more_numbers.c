@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - Function to print 10 times from 0 to 14.
- * @numbers: Array that store the number.
- * @list: counts the number of line.
  */
 void more_numbers(void)
 {
