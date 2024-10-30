@@ -24,3 +24,14 @@ a=98, b=42
 a=42, b=98
 ```
 ---
+## Task 2 - This report, by its very length, defends itself against the risk of being read
+Write a function that returns the length of a string.
+### Output:
+`gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strlen.c -o 2-strlen`
+
+`./2-strlen`
+
+```
+16
+```
+---
