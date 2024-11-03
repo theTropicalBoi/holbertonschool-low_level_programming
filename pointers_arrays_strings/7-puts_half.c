@@ -1,7 +1,7 @@
 #include "main.h"
-/** 
+/**
 * puts_half - Function that swaps the values of two integers.
-
+* @str: The string to be printed
 */
 void puts_half(char *str)
 {
@@ -13,13 +13,12 @@ void puts_half(char *str)
 		i++;
 	}
 
-	j = i - 1 / 2;
-	i = i / 2;
+	j = (i - 1) / 2;
 
-	while (i < j)
+	while (str[j] != '\0')
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(str[j]);
+		j++;
 	}
 	_putchar('\n');
 }
