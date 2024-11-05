@@ -34,7 +34,7 @@ int main(void)
 		{
 			printf("\n");
 		}
-		printf("0x%02x", s1[i]);
+		printf("0x%02x", s1[i]); /* %02x - Used to print the hex value of the character */
 	}
 	printf("\n");
 	return (0);
