@@ -10,7 +10,7 @@ char *leet(char *s)
 	int j = 0; /* To count in the array "letter" and "number" */
 
 	char upper_letter[5] = {'A', 'E', 'O', 'T', 'L'};
-	char lower_letter[5] = {'a', 'e', 'o','t', 'l'};
+	char lower_letter[5] = {'a', 'e', 'o', 't', 'l'};
 	char number[5] = {'4', '3', '0', '7', '1'};
 
 	while (s[i])
