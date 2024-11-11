@@ -3,7 +3,7 @@
  * _strspn - Function that gets the length of a prefix substring.
  * @s: The string to count.
  * @accept: The set of characters to count. "f" in main
- * Return: Number of bytes in the initial segment of s which consist only of bytes from accept
+ * Return: Number of bytes in the initial segment of "s".
  */
 unsigned int _strspn(char *s, char *accept)
 {
