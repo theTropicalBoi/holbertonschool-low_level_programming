@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /* Created Function: */
-int _putchar(char c); /* Replicate the putchar function */
+int _putchar(char c);
 
 /* Prototype: */
 unsigned int binary_to_uint(const char *b);
